@@ -32,3 +32,12 @@ body {
     background: rgb(132, 240, 10);
     color: white;
 }
+
+a{
+    color: black; /* Màu chữ của liên kết */
+    text-decoration: none; /* Loại gạch chân của liên kết */
+}
+
+.button:hover a {
+    color: white; /* Màu chữ của liên kết khi hover trên nút */
+}
